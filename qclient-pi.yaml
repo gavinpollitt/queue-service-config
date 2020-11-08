@@ -1,0 +1,6 @@
+spring:
+  zipkin:
+    base-url: http://zipkin-dep.config.svc.cluster.local:9411
+  sleuth:
+    sampler:
+      probability: 1.0
